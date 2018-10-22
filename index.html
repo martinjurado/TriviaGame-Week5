@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Friends Trivia Game</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <!-- Css -->
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/CSS/style.css" />
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+</head>
+
+<style>
+    body {
+
+        background-image: url(assets/Images/brick.jpg);
+
+    }
+</style>
+
+<body>
+
+    <div class="firstsection">
+        <!--First Part  -->
+        <div class="row">
+            <div class="col-md-8">
+                <div class="container">
+
+                    <img src="assets/Images/logo.png" class="header">
+
+                    <div class="subheader">The Trivia Game!</div>
+
+                    <!-- Intro -->
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p class="intro"> How you doin? You think you know the friends cast like I do? Think again! Let's see how
+                                well you know Rachel, Joey, Phoebe, Monica and Chandler by answering this quick trivia game!
+                                Could it be any easier? Nope. This trivia game is timed. Do your best!
+                            </p>
+
+                            <button type="button" class="btn btn-warning btn-sm startlink">Start Game!</button>
+
+                        </div>
+
+                        <div class="col-md-6">
+                            <img src="assets/Images/phoebe.gif" class="happy">
+                        </div>
+                    </div>
+                    <!-- FIRST PAGE -->
+                    <div class="row">
+                        <div class="col-md-6">
+                        <!-- Question -->
+                            <div id=currentQuestion></div>
+                        </div>
+                        <div class="col-md-6">
+                        <!-- Time -->
+                            <div id=timeLeft></div>
+                        </div>
+                    </div>      
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- Audio -->
+<audio id="click" src="assets/Sounds/click.mp3"></audio>
+
+
+    <!--JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Game.Js -->
+    <script type="text/javascript" src="assets/JavaScript/game.js"></script>
+
+</body>
+
+</html>
