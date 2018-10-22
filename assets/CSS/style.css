@@ -1,0 +1,93 @@
+.container {
+
+    background-color: white;
+    margin: 10% 3% 0 26%;
+    padding-bottom: 10%;
+
+}
+
+.intro {
+
+    padding-left: 10%;
+    padding-top: 5%;
+    text-align: justify;
+}
+
+.startlink {
+
+    margin-left: 19%;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;
+    color: white;
+
+}
+
+a:link {
+
+    text-decoration: none;
+}
+
+#timeLeft{
+
+    font-family: 'Permanent Marker', cursive;
+    padding-top: 20px;    
+}
+
+#currentQuestion {
+
+    padding-top: 25px;
+    padding-left: 10%;
+    font-weight: bold;
+}
+
+.answerList {
+    padding-left: 10%;
+}
+/* pics used */
+
+.header {
+
+    height: 120px;
+    width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 5%;
+    
+}
+
+.happy {
+
+    padding-top: 20px;
+    height: 250px;
+    width: 340px;
+}
+
+.subheader {
+
+    margin-left: 31%;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 40px;
+    
+}
+
+
+/* Animation */
+
+.subheader {
+
+    animation-name: secondheader;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+
+@keyframes secondheader {
+
+    0% { color: #e60000; left: 0px; top: 0px;}
+    25% {color: #00BFFF; left: 0px; top:0;}
+    50% {color: #FFD700; left: 0px; top: 0px;}
+    75% { color:#e60000; left: 0px; top: 0px;}
+    100% {color: #00BFFF; left: 0px; top:0;}
+}
