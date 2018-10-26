@@ -2,7 +2,7 @@
 Friends-Themed Trivia Game
 - Technologies Used 
 - HTML/CSS
-- JQuery (AJAX Calls & GIPHY API)
+- JQuery
 - SetIntervals
 - Link to Game (https://martinjurado.github.io/TriviaGame-Week5/)
 
