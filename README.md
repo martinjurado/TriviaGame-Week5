@@ -5,6 +5,8 @@ Friends-themed trivia game requires user to answer questions with a set timer. I
 - HTML/CSS
 - Javascript 
 - SetIntervals
+![](/assets/images/friends.png)
+
 ## Link
 Link to Game (https://martinjurado.github.io/TriviaGame-Week5/)
 
